@@ -1,7 +1,7 @@
 {
   "name": "thinky-express-example",
   "version": "1.0.0",
-  "description": "An example to showcase a simple MVC framework with thinky, a RethinkDB ORM, and Express",
+  "description": "An example to showcase an absurdly simple and effective MVC framework with thinky, a RethinkDB ORM, and Express",
   "main": "index.js",
   "scripts": {
     "start": "concurrent \"webpack\" \"nodemon ./dist/index.js\""
