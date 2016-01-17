@@ -31,6 +31,6 @@ module.exports = config => {
   return {
     User:     require('./models/User')(r, allModels),
     Post:     require('./models/Post')(r, allModels),
-    Category: require('./models/Category')(r, allModels)
+    Category: require('./models/Category')(r, allModels),
   }
 }

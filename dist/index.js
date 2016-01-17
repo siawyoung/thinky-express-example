@@ -66,11 +66,11 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	var app = (0, _express2.default)();
-	var config = __webpack_require__(5);
 
 	app.use(_bodyParser2.default.json());
 	app.use(_bodyParser2.default.urlencoded({ extended: true }));
 
+	var config = __webpack_require__(5);
 	var models = __webpack_require__(6)(config);
 
 	__webpack_require__(11)(app, models);
